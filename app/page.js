@@ -1,3 +1,10 @@
+import Link from "next/link";
+
 export default function Home() {
-  return <h1>Assignment</h1>;
+  return (
+    <main>
+      <h1>CPRG 306: Web Develpoment 2 - Assignments</h1>
+      <Link href="/week-2">Week 2</Link>
+    </main>
+  );
 }
