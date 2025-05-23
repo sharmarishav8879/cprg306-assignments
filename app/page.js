@@ -4,7 +4,18 @@ export default function Home() {
   return (
     <main>
       <h1>CPRG 306: Web Develpoment 2 - Assignments</h1>
-      <Link href="/week-2">Week 2</Link>
+      <ul>
+        <li>
+          <Link className="text-cyan-300 hover:text-cyan-700" href="/week-2">
+            Week 2
+          </Link>
+        </li>
+        <li>
+          <Link className="text-cyan-300 hover:text-cyan-700" href="/week-3">
+            Week 3
+          </Link>
+        </li>
+      </ul>
     </main>
   );
 }
